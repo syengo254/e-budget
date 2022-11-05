@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mrcictfb/public_html/e-budget.jubatus.co.ke/
-    - /bin/cp -R ./*.* $DEPLOYPATH
+    - /bin/cp -R ./* $DEPLOYPATH
