@@ -1,0 +1,234 @@
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;}
+body{
+	background:url(../images/body_bg.jpg);
+	background-repeat:repeat-x repeat-y;
+}
+#cont{
+	position:relative;
+	width:1024px;
+	height:960px;
+	margin:0 auto;
+	background-color:#203086;
+}
+#header{
+	background:url(../images/header_banner.png) no-repeat;
+	position:relative;
+	width:inherit;
+	height:156px;
+	z-index:2;
+}
+ul#top-nav{
+	position:relative;
+	float:right;
+	right:16px;
+	margin-top:12px;
+}
+ul#top-nav li{
+	list-style:none;
+	float:right;
+}
+ul#top-nav li a{
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+	width:auto;
+	padding:0px 10px 10px 10px;
+	text-align:center;
+	font-family:Arial;
+	font-size:15px;
+	height:20px;
+	outline:none;
+}
+ul#top-nav li a:hover{
+	text-decoration:underline;
+}
+ul#top-nav li img.dias{
+	position:relative;
+	padding:5px 5px 5px 0px;
+}
+ul#like_btns{
+	position:relative;
+	float:right;
+	top:100px;
+	right:-457px;
+}
+ul#like_btns li{
+	list-style:none;
+	float:left;
+	padding:0px 10px 10px 0px;
+}
+ul#like_btns li a img{
+	outline:none;
+	border:none;
+}
+ul#like_btns li a img:hover{
+	position:relative;
+	top:1px;
+}
+ul#like_btns li input[type="text"]{
+	position:relative;
+	top:2px;
+	border:1px solid #DADADA;
+	width:170px;
+	height:22px;
+	border-radius:5px;
+}
+#content{
+	background-color:#2946a5;
+	position:relative;
+	width:inherit;
+	height:605px;
+}
+#content #menu{
+	position:relative;
+	background:url(../images/body_nav_bg.png) no-repeat;
+	width:808px;
+	height:57px;
+	margin:0 auto;
+	top:-2px;
+	z-index:1;
+}
+ul#nav{
+	position:relative;
+	width:555px;
+	top:20px;
+	margin:0 auto;
+}
+ul#nav li{
+	float:left;
+	list-style:none;
+}
+ul#nav li a{
+	display:block;
+	width:100px;
+	text-align:center;
+	color:#FFF;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #000;
+	outline:none;
+}
+ul#nav li a:hover{
+	font-size:16px;
+	color:#FF0;
+}
+img.kaboda{
+	position:relative;
+	top:-10px;
+}
+#content-body{
+	position:relative;
+	width:985px;
+	height:502px;
+	top:27px;
+	margin:0 auto;
+	background-color:#FFF;
+	border-radius:5px;
+	padding:5px 10px 5px 10px;
+}
+/* FOOTER STYLE BEGINS HERE*/
+#footer{
+	position:relative;
+	background-color:#172362;
+	height:189px;
+	border-top:1px solid #3c5bff;
+}
+#footer #upper{
+	position:relative;
+	width:560px;
+	height:133px;
+	margin:0 auto;
+}
+#footer #upper #f_motto{
+	position:relative;
+	top:5px;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+}
+#block_cont{
+	position:relative;
+	width:inherit;
+	height:auto;
+}
+.block{
+	position:relative;
+	width:150px;
+	float:left;
+	top:20px;
+}
+.b_head{
+	position:relative;
+	width:inherit;
+	height:20px;
+	color:#3c62ff;
+	font-weight:bold;
+	font-size:18px;
+}
+.b_body{
+	position:relative;
+	top:7px;
+	font-family:Arial;
+	font-size:13px;
+	color:#FFF;
+}
+#footer #lower{
+	position:relative;
+	width:inherit;
+	height:65px;
+	background-color:#354fd4;
+	border-top:1px solid #F4F4F4;
+	box-shadow:0px -1px 4px #191919;
+}
+#f_logo{
+	position:relative;
+	display:block;
+	top:5px; left:7px;
+	float:left;
+}
+ul#f_nav{
+	position:relative;
+	top:7px;
+	float:right;
+	right:30px;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+}
+ul#f_nav li{
+	float:right;
+	list-style:none;
+}
+ul#f_nav li a{
+	color:#FFF;
+	display:block;
+	width:145px;
+	height:17px;
+	text-align:center;
+	text-decoration:none;
+}
+ul#f_nav li a:hover{
+	text-decoration:underline;
+}
+.responses{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	display:none;
+	padding:1px;
+	word-wrap:break-word;
+	color:#000;
+	background-color:#CFF;
+	border:2px solid #0C0;
+	margin-bottom:5px;
+}
+.close_btn{
+	position:absolute;
+	top:3px;
+	right:3px;
+	z-index:10;
+	cursor:pointer;
+}

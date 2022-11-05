@@ -1,0 +1,51 @@
+/* CSS Document */
+#steps{
+	background:url(../images/tabs.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	position:relative;
+	display:block;
+	width:inherit;
+	height:37px;
+	margin-bottom:5px;
+}
+#add_form{
+	position:relative;
+	float:left;
+	background-color:#2e45ba;
+	border-radius:5px;
+	width:445px; height:455px;
+	padding:5px 10px 5px 10px;
+}
+label{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding-right:10px;
+	float:left;
+	text-shadow:1px 1px 1px #000;
+	display:block;
+	color:#FFF;
+	width:43%;
+}
+span.f_title{
+	color:#FFF;
+	position:relative;
+	top:-7px;
+	display:block;
+	width:inherit;
+	text-align:center;
+	font-family:Calibri; font-style:italic; font-size:24px;
+	text-shadow:1px 1px 1px #1B1B1B;
+	margin-bottom:10px;
+}
+textarea{
+	position:relative;
+	width:230px;
+	padding:3px;
+	height:70px;
+	border:1px solid #07bee2;
+	margin-bottom:10px;
+	right:5px;
+	font-size:14px;
+	border-radius:5px;
+}

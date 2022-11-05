@@ -1,0 +1,28 @@
+/* CSS Document */
+.d_box{
+	position:relative;
+	width:420px;
+	min-height:200px;
+	background-color:#FFF;
+	margin:0 auto;
+	border:1px solid #9c9c9c;
+	box-shadow:3px 3px 4px #959595;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.d_box .btitle{
+	position:relative;
+	height:40px;
+	width:inherit;
+	text-align:center;
+	color:#FFF;
+	background-color:#3f6cff;
+	font-weight:700;
+	text-shadow:1px 1px 1px #050505;
+}
+.d_box .d_body{
+	position:relative;
+	padding:5px;
+	width:410px;
+	top:10px;
+	color:#000;
+}

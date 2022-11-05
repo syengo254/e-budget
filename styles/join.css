@@ -1,0 +1,38 @@
+/* CSS Document */
+#left_form{
+	position:relative;
+	float:left;
+	background-color:#2e45ba;
+	border-radius:5px;
+	width:445px; height:490px;
+	padding:5px 10px 5px 10px;
+}
+#right_form{
+	position:relative;
+	float:right;
+	background-color:#2e45ba;
+	border-radius:5px;
+	width:445px; height:490px;
+	padding:5px 10px 5px 10px;
+}
+span.f_title{
+	color:#FFF;
+	position:relative;
+	top:-7px;
+	display:block;
+	width:inherit;
+	text-align:center;
+	font-family:Calibri; font-style:italic; font-size:24px;
+	text-shadow:1px 1px 1px #1B1B1B;
+	margin-bottom:10px;
+}
+label{
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding-right:10px;
+	float:left;
+	text-shadow:1px 1px 1px #000;
+	display:block;
+	width:43%;
+}

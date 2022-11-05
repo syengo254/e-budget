@@ -1,0 +1,1 @@
+<iframe style="overflow:hidden;" src="http://localhost/W-Pesa/bin/payer.php" width="430px" height="190px" frameborder="0" seamless="seamless"></iframe>

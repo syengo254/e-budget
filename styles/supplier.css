@@ -1,0 +1,247 @@
+/* CSS Document */
+body{
+	height:100%; width:100%;}
+a.menu_butt{
+	position:relative;
+	display:block;
+	width:500px; height:48px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:18px;
+	text-align:center;
+	text-shadow:1px 1px 1px #2b366e;
+	color:#FFF;
+	text-decoration:none;
+	padding-top:22px;
+	outline:none;
+	border:2px solid #549ec4;
+	border-radius:7px;
+	background:url(../images/gradient_butt.png);
+	background-color:#03F;
+	background-repeat:repeat-x;
+	margin-bottom:35px;
+}
+a.menu_butt:active{
+	text-shadow:none;
+	background:#223386;
+	padding-top:23px;
+	height:47px;
+}
+a.menu_butt:hover{
+	text-shadow:none;
+}
+#logo{
+	position:absolute;
+	top:10px;
+	display:block;
+	width:200px;
+	height:100px;
+	padding:5px;
+	background-color:#FFF;
+	border:1px solid #989898;
+	box-shadow:2px 2px 5px #454545;
+}
+#hider{
+	position:absolute;
+	width:inherit;
+	height:960px;
+	z-index:5;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#hider #opaq{
+	position:absolute;
+	top:0px; left:0px;
+	width:inherit;
+	height:inherit;
+	background-color:#000000;
+	opacity:.4;
+	z-index:6;
+}
+#hider #canvas{
+	position:relative;
+	background:#fcfeff;
+	margin:0 auto;
+	top:7px;
+	padding-top:10px;
+	width:1000px;
+	height:600px;
+	opacity:.98;
+	z-index:7;
+	box-shadow:2px 2px 3px #434343;
+	border:1px solid #FFF;
+	border-radius:3px;
+	overflow:auto;
+}
+#canvas select{
+	width:130px;
+	padding:0px;
+	height:22px;
+	font-size:13px;
+	border:1px solid #6F6F6F;
+	font-weight:100;
+	border-radius:0px;
+	margin-bottom:15px;
+	text-align:center;
+}
+#canvas input[type="text"]{
+	width:300px;
+	height:20px;
+	margin-bottom:15px;
+}
+label{
+	position:relative;
+	padding:5px;
+	width:200px;
+	float:left;
+	display:block;
+	left:10px;
+}
+a.submit{
+	position:relative;
+	display:block;
+	background-color:#EEE;
+	border:1px solid #fff;
+	width:65px;
+	height:22px;
+	text-align:center;
+	padding:6px 0px 1px 0px;
+	text-decoration:none;
+	color:#000;
+	font-size:14px;
+	font-family:Arial;
+	box-shadow:1px 1px 2px #141414;
+	border-radius:3px;
+	outline:none;
+	font-weight:700;
+	text-shadow:1px 2px 1px #FFF;
+}
+a.submit:hover{
+	background-color:#D8D8D8;
+	padding:7px 0px 0px 0px;
+}
+.f_hold{
+	position:relative;
+	border:1px solid #EBEBEB;
+	padding:5px;
+	width:600px;
+	height:330px;
+	margin:2px auto;
+}
+#store_logo{
+	position:absolute;
+	right:25px;
+	top:50px;
+	color:#FFF;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:16px;
+}
+/* VIEW AND EDIT VIEW STYLE BEGINS HERE. */
+.vprod-hold{
+	position:relative;
+	display:block;
+	margin:5px;
+	width:200px;
+	min-height:100px;
+	height:auto;
+	background-color:#FFF;
+	border:1px solid #203086;
+	font-family:Arial;
+	font-size:14px;
+	border-radius:2px;
+	box-shadow:2px 2px 3px #979797;
+	float:left;
+}
+.vprod-hold .vprod-head{
+	position:relative;
+	display:block;
+	width:190px; min-height:20px;
+	line-height:14px;
+	margin:0 auto;
+	border:none;
+	background-color:#203086;
+	color:#FFF;
+	word-wrap:break-word;
+	padding:3px 5px 3px 5px;
+}
+.vprod-hold .vprod-pic img{
+	position:relative;
+	display:block;
+	width:200px;
+	height:165px;
+	padding:5px 0px 5px 0px;	
+}
+.vprod-hold .vprod-price{
+	position:relative;
+	display:block;
+	width:190;
+	padding:3px 5px 3px 5px;
+	height:20px;
+	background-color:#203086;
+	color:#FFF;
+	text-align:center;
+	margin-bottom:1px;
+}
+a.edit{
+	position:relative;
+	display:block;
+	background-color:#fff;
+	width:30px; height:auto;
+	padding:2px 2px 2px 2px;
+	color:#000;
+	text-decoration:none;
+	outline:none;
+	clear:both;
+	text-align:center;
+	border-radius:3px;
+	float:right;
+}
+a.edit:hover{
+	padding:3px 2px 1px 2px;
+	background-color:#A2A2A2;
+	color:#FFF;
+}
+.v-close{
+	position:absolute;
+	background:url(../images/close_small.png);
+	background-repeat:no-repeat;
+	width:24px; height:24px;
+	right:-8px;
+	top:-8px;
+	display:block;
+	cursor:pointer;
+	z-index:10;
+}
+.row-breaker{
+	position:relative;
+	display:table;
+	margin-bottom:4px;
+}
+/* EDIT FORM */
+#edit-form{
+	position:absolute;
+	display:block;
+	background-color:#FDFDFD;
+	min-height:255px;
+	min-width:530px;
+	left:200px;
+	z-index:15;
+	box-shadow:2px 2px 3px #303030;
+	padding:5px;
+	visibility:hidden;
+}
+#trace{
+	position:fixed;
+	z-index:40;
+	color:#FFF;
+	background-color:#303030;
+	width:auto;
+	height:18px;
+	font-size:16px;
+	border-radius:5px;
+	top:260px;
+	left:700px;
+	border:1px solid #D9D9D9;
+	opacity:0;
+	padding:3px;
+}

@@ -1,0 +1,17 @@
+/* CSS Document */
+#steps{
+	background:url(../images/paysteps.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	position:relative;
+	display:block;
+	width:inherit;
+	height:37px;
+	margin-bottom:5px;
+}
+#dyna{
+	position:relative;
+	width:500px;
+	margin:0 auto;
+	top:20px;
+}
