@@ -8,9 +8,9 @@ class DBMS{
 	public $insert_id;
 	
 	public function __construct(){
-		$DB_USER = "root";
-		$DB_NAME = "e-budget";
-		$DB_PASS = "";
+		$DB_USER = "mrcictfb_mrcictfb";
+		$DB_NAME = "mrcictfb_e-budget";
+		$DB_PASS = "wZ-fJ-FKRrpV";
 		$DB_SERVER = "127.0.0.1";
 		$this->db_handler = mysqli_connect($DB_SERVER, $DB_USER, $DB_PASS, $DB_NAME);
 	}
