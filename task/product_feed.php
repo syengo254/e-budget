@@ -30,11 +30,12 @@ $db = new DBMS();
 if($mode == "view"){
 	//do for view.
 	if($view_as == "all"){
-		$db->do_query("SELECT products.id as id, products.description, p_categories.description as category, p_subcategories.description as subcategory, products.quantity, stores.name, stores.id as sid, stores.logo, products.image, products.price
+		$db->do_query("SELECT products.id as id, products.description, p_categories.description as category, p_subcategories.description as subcategory, products.quantity, stores.name, stores.id as sid, stores.logo, products.image, prices.price
 	FROM products
 	INNER JOIN p_categories ON products.category_id = p_categories.id
 	INNER JOIN p_subcategories ON products.subcategory_id = p_subcategories.id
 	INNER JOIN stores ON products.store_id = stores.id
+	INNER JOIN prices ON prices.product_id = products.id
 	ORDER BY id ASC
 	LIMIT ".$current_row.", ".$limit);
 		
