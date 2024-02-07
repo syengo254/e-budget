@@ -7,10 +7,10 @@ $current_row = 0;
 
 //IF ACTION IS SPECIFIED REDIRECT TO SPEFIC PAGE.
 if(isset($_POST["action"])){
-	$action = $_POST["action"];
-	$row = $_POST["row"];
-	$cat = $_GET["cat"];
-	$subcat = $_GET["subcat"];
+	$action = $_POST["action"] ?? '';
+	$row = $_POST["row"] ?? '';
+	$cat = $_GET["cat"] ?? '';
+	$subcat = $_GET["subcat"] ?? '';
 	
 	$url = "custom_product_feed.php?action=".$action."&cat=".$cat."&subcat=".$subcat."&row=".$row;
 	
